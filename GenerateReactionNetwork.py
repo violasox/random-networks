@@ -13,7 +13,7 @@ kx = 0.3 # Rate constant for S10 --> Sx
 
 printReactions = True # Prints a summary of the reactions in the finished model
 
-limitConnections = True # Removes reactions that make nodes have too many edges
+limitConnections = True # Removes reactions that make nodes with too many edges
 maxConnections = 5 # Set the maximum number of edges for each node
 
 forbidZeros = True # Tosses models where 1+ species fall to zero concentration

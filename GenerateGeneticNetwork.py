@@ -16,7 +16,7 @@ printDecayReactions = True # Prints a summary of the decay reactions
 
 forbidZeros = False # Tosses models where 1+ species fall to zero concentration
 
-limitConnections = True # Removes reactions that make nodes have too many edges
+limitConnections = True # Removes reactions that make nodes with too many edges
 maxConnections = 5
 
 class Reactions:
@@ -204,7 +204,6 @@ while True: # Sets up a loop so that multiple models can be generated
                 re.printreactions()    
             if printDecayReactions:
                 print("\n====Printing decay reactions====\n")
-                decayData = decayData[1:]
                 re.printdecayreactions()
             break
         else:

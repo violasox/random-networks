@@ -12,7 +12,7 @@ kx = 0.3 # Rate constant for S10 --> Sx
 kRatio = 1000 # Ratio of kcat to kM, in general
 
 forbidZeros = False # Tosses models where 1+ species fall to zero concentration
-limitConnections = True # Removes reactions that make nodes have too many edges
+limitConnections = True # Removes reactions that make nodes with too many edges
 maxConnections = 7 
 
 printReactions = True # Prints a summary of the reactions
